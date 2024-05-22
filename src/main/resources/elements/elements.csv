@@ -1,0 +1,201 @@
+code;name;description;difficulty;category code
+DB201;Forlæns pirouette 360;;0.2;1.1 A
+DB601;Forlæns pirouette 540;;0.6;1.1 A
+DB801;Forlæns pirouette 720;;0.8;1.1 A
+DB1001;Forlæns pirouette 900;;1.0;1.1 A
+DB202;Baglæns pirouette 360;;0.2;1.1 A
+DB602;Baglæns pirouette 540;;0.6;1.1 A
+DB802;Baglæns pirouette 720;;0.8;1.1 A
+DB1002;Baglæns pirouette 900;;1.0;1.1 A
+DB403;Forlæns pirouette 360;Det frie ben med håndstøtte 90°. Når det frie ben er bøjet, bruges hælen til at definere vinklen til hoften.;0.4;1.1 A
+DB803;Forlæns pirouette 540;Det frie ben med håndstøtte 90°. Når det frie ben er bøjet, bruges hælen til at definere vinklen til hoften.;0.8;1.1 A
+DB1003;Forlæns pirouette 720;Det frie ben med håndstøtte 90°. Når det frie ben er bøjet, bruges hælen til at definere vinklen til hoften.;1.0;1.1 A
+DB604;Forlæns pirouette 360;Det frie ben uden håndstøtte 90°. Når det frie ben er bøjet, bruges hælen til at definere vinklen til hoften.;0.6;1.1 A
+DB1004;Forlæns pirouette 540;Det frie ben uden håndstøtte 90°. Når det frie ben er bøjet, bruges hælen til at definere vinklen til hoften.;1.0;1.1 A
+DB805;Stem op til håndstand;Med strakte spredte ben (DB805). Startposition er valgfri;0.8;1.1 B
+DB1006;Stem op til håndstand;Med strakte samlede ben (DB1006). Startposition er valgfri;1.0;1.1 B
+DB1007;Stem op til håndstand fra vandret katete med spredte ben;Fra en vandret katete med spredte ben stemmes op med strakte ben til håndstand;1.0;1.1 B
+DB1008;Stem op til håndstand fra vandret katete med samlede ben;Fra vandret katete stemmes op til håndstand. Bøjede ben er tilladt i den første del. Efter fødderne har passeret hænderne stemmes op til håndstand med strakte samlede ben eller strakte spredte ben.;1.0;1.1 B
+DB409;Fra hovedstand til frø;Fra kontrolleret hovedstand, kroppen skal være strakt, sænkning til frø støttet med albuer.;0.4;1.1 B
+DB609;Fra hovedstand til plance;Fra kontrolleret hovedstand, kroppen skal være strakt, sænkning til planche støttet med albuer. Ben samlede og strakte;0.6;1.1 B
+DB610;;;0.6;1.1 B
+DB1010;;;1.0;1.1 B
+DB0811;;;0.8;1.1 B
+DB1011;;;1.0;1.1 B
+DB612;;;0.6;1.1 B
+DB812;;;0.8;1.1 B
+DB1012;;;1.0;1.1 B
+DB1013;;;1.0;1.1 B
+SB601;;;0.6;1.2
+SB801;;;0.8;1.2
+SB1001;;;1.0;1.2
+SB202;;;0.2;1.2
+SB402;;;0.4;1.2
+SB802;;;0.8;1.2
+SB1002;;;1.0;1.2
+SB603;;;0.6;1.2
+SB803;;;0.8;1.2
+SB204;;;0.2;1.2
+SB404;;;0.4;1.2
+SB604;;;0.6;1.2
+SB804;;;0.8;1.2
+SB1004;;;1.0;1.2
+SB605;;;0.6;1.2
+SB805;;;0.8;1.2
+SB406;;;0.4;1.2
+SB806;;;0.8;1.2
+SB1006;;;1.0;1.2
+SB807;;;0.8;1.2
+SB1007;;;1.0;1.2
+HB201;;;0.2;1.3
+HB601;;;0.6;1.3
+HB1001;;;1.0;1.3
+HB202;;;0.2;1.3
+HB402;;;0.4;1.3
+HB802;;;0.8;1.3
+HB403;;;0.4;1.3
+HB603;;;0.6;1.3
+HB1003;;;1.0;1.3
+HB204;;;0.2;1.3
+HB404;;;0.4;1.3
+HB604;;;0.6;1.3
+HB804;;;0.8;1.3
+HB405;;;0.4;1.3
+HB805;;;0.8;1.3
+HB1005;;;1.0;1.3
+J201;;;0.2;2.1 A
+J401;;;0.4;2.1 A
+J601;;;0.6;2.1 A
+J801;;;0.8;2.1 A
+J202;;;0.2;2.1 A
+J402;;;0.4;2.1 A
+J602;;;0.6;2.1 A
+J1002;;;1.0;2.1 A
+J203;;;0.2;2.1 A
+J603;;;0.6;2.1 A
+J803;;;0.8;2.1 A
+J1003;;;1.0;2.1 A
+J804;;;0.8;2.1 A
+J1004;;;1.0;2.1 A
+J1005;;;1.0;2.1 A
+J206;;;0.2;2.1 A
+J406;;;0.4;2.1 A
+J1006;;;1.0;2.1 A
+J207;;;0.2;2.1 A
+J407;;;0.4;2.1 A
+J807;;;0.8;2.1 A
+J408;;;0.4;2.1 A
+J1008;;;1.0;2.1 A
+J409;;;0.4;2.1 B
+J809;;;0.8;2.1 B
+J1009;;;1.0;2.1 B
+J210;;;0.2;2.1 B
+J410;;;0.4;2.1 B
+J1010;;;1.0;2.1 B
+J411;;;0.4;2.1 C
+J611;;;0.6;2.1 C
+J811;;;0.8;2.1 C
+J612;;;0.6;2.1 C
+J812 A;;;0.8;2.1 C
+J812 B;;;0.8;2.1 C
+J613;;;0.6;2.1 C
+J813 A;;;0.8;2.1 C
+J813 B;;;0.8;2.1 C
+J614;;;0.6;2.1 C
+J814;;;0.8;2.1 C
+J415;;;0.4;2.2 A
+J615;;;0.6;2.2 A
+J216;;;0.2;2.2 A
+J416;;;0.4;2.2 A
+J616;;;0.6;2.2 A
+J816;;;0.8;2.2 A
+J1016;;;1.0;2.2 A
+J217;;;0.2;2.2 A
+J417;;;0.4;2.2 A
+J617;;;0.6;2.2 A
+J418;;;0.4;2.2 A
+J818;;;0.8;2.2 A
+J1018;;;1.0;2.2 A
+J1019 A;;;1.0;2.2 A
+J1019 B;;;1.0;2.2 A
+J420;;;0.4;2.2 A
+J820;;;0.8;2.2 A
+J421;;;0.4;2.2 A
+J621;;;0.6;2.2 A
+J821;;;0.8;2.2 A
+J222;;;0.2;2.2 A
+J422;;;0.4;2.2 A
+J822;;;0.8;2.2 A
+J1022;;;1.0;2.2 A
+J623;;;0.6;2.2 A
+J823;;;0.8;2.2 A
+J1023;;;1.0;2.2 A
+J624;;;0.6;2.2 B
+J824;;;0.8;2.2 B
+J1024;;;1.0;2.2 B
+J625;;;0.6;2.2 C
+J825;;;0.8;2.2 C
+J626;;;0.6;2.2 C
+J826;;;0.8;2.2 C
+J227;;;0.2;2.3
+J427;;;0.4;2.3
+J1027;;;1.0;2.3
+J828;;;0.8;2.3
+J1028;;;1.0;2.3
+J1029;;;1.0;2.3
+A601;;;0.6;3.1
+A801;;;0.8;3.1
+A1001;;;1.0;3.1
+A802;;;0.8;3.1
+A1002;;;1.0;3.1
+A603 A;;;0.6;3.1
+A603 B;;;0.6;3.1
+A803 A;;;0.8;3.1
+A803 B;;;0.8;3.1
+A604 A;;;0.6;3.1
+A604 B;;;0.6;3.1
+A1004;;;1.0;3.1
+A205;;;0.2;3.1
+A605;;;0.6;3.1
+A1005;;;1.0;3.1
+A406;;;0.4;3.1
+A1006;;;1.0;3.1
+A607 A;;;0.6;3.2
+A607 B;;;0.6;3.2
+A607 C;;;0.6;3.2
+A1007 A;;;1.0;3.2
+A1007 B;;;1.0;3.2
+A608;;;0.6;3.2
+A808;;;0.8;3.2
+A1008;;;1.0;3.2
+A209;;;0.2;3.2
+A409;;;0.4;3.2
+A609;;;0.6;3.2
+A809;;;0.8;3.2
+A410;;;0.4;3.2
+A810;;;0.8;3.2
+A1010;;;1.0;3.2
+A411;;;0.4;3.2
+A611;;;0.6;3.2
+A1011;;;1.0;3.2
+A1012;;;1.0;3.3
+A213 A;;;0.2;3.3
+A213 B;;;0.2;3.3
+A1013;;;1.0;3.3
+A614;;;0.6;3.4
+A1014;;;1.0;3.4
+A1015;;;1.0;3.4
+F401;;;0.4;4
+F801;;;0.8;4
+F802 A;;;0.8;4
+F802 B;;;0.8;4
+F1003;;;1.0;4
+F1004;;;1.0;4
+F405;;;0.4;4
+F605;;;0.6;4
+F805;;;0.8;4
+F1005;;;1.0;4
+G601;;;0.6;5
+G1001;;;1.0;5
+G802;;;0.8;5
+G1002;;;1.0;5
