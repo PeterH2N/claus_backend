@@ -1,0 +1,202 @@
+code;name;description;difficulty;category code
+DB201;Forlæns pirouette (360);;0.2;1.1 A
+DB601;Forlæns pirouette (540);;0.6;1.1 A
+DB801;Forlæns pirouette (720);;0.8;1.1 A
+DB1001;Forlæns pirouette (900);;1.0;1.1 A
+DB202;Baglæns pirouette (360);;0.2;1.1 A
+DB602;Baglæns pirouette (540);;0.6;1.1 A
+DB802;Baglæns pirouette (720);;0.8;1.1 A
+DB1002;Baglæns pirouette (900);;1.0;1.1 A
+DB403;Forlæns pirouette m. håndstøtte (360);Det frie ben med håndstøtte 90°. Når det frie ben er bøjet, bruges hælen til at definere vinklen til hoften.;0.4;1.1 A
+DB803;Forlæns pirouette m. håndstøtte (540);Det frie ben med håndstøtte 90°. Når det frie ben er bøjet, bruges hælen til at definere vinklen til hoften.;0.8;1.1 A
+DB1003;Forlæns pirouette m. håndstøtte (720);Det frie ben med håndstøtte 90°. Når det frie ben er bøjet, bruges hælen til at definere vinklen til hoften.;1.0;1.1 A
+DB604;Forlæns pirouette u. håndstøtte (360);Det frie ben uden håndstøtte 90°. Når det frie ben er bøjet, bruges hælen til at definere vinklen til hoften.;0.6;1.1 A
+DB1004;Forlæns pirouette u. håndstøtte (540);Det frie ben uden håndstøtte 90°. Når det frie ben er bøjet, bruges hælen til at definere vinklen til hoften.;1.0;1.1 A
+DB805;Stem (spredte ben);Med strakte spredte ben (DB805). Startposition er valgfri;0.8;1.1 B
+DB1006;Stem (samlede ben);Med strakte samlede ben (DB1006). Startposition er valgfri;1.0;1.1 B
+DB1007;Stem fra vandret katete (spredte ben);Fra en vandret katete med spredte ben stemmes op med strakte ben til håndstand;1.0;1.1 B
+DB1008;Stem fra vandret katete (samlede ben);Fra vandret katete stemmes op til håndstand. Bøjede ben er tilladt i den første del. Efter fødderne har passeret hænderne stemmes op til håndstand med strakte samlede ben eller strakte spredte ben.;1.0;1.1 B
+DB409;Hovedstand til frø;Fra kontrolleret hovedstand, kroppen skal være strakt, sænkning til frø støttet med albuer.;0.4;1.1 B
+DB609;Hovedstand til planche;Fra kontrolleret hovedstand, kroppen skal være strakt, sænkning til planche støttet med albuer. Ben samlede og strakte;0.6;1.1 B
+DB610;Håndstand til frø;;0.6;1.1 B
+DB1010;Håndstand til planche;;1.0;1.1 B
+DB0811;Håndstand til vandret katete (spredte ben);;0.8;1.1 B
+DB1011;Håndstand til vandret katete (samlede ben);;1.0;1.1 B
+DB612;Dobbelt bencirkel (1 omg.);;0.6;1.1 B
+DB812;Dobbelt bencirkel (>2 omg.);;0.8;1.1 B
+DB1012;Tragtformet bencirkel (2 omg.);;1.0;1.1 B
+DB1013;Russisk Wendel-sving;;1.0;1.1 B
+SB601;Sidelæns balance m. håndstøtte (120);;0.6;1.2
+SB801;Sidelæns balance m. håndstøtte på tå (120);;0.8;1.2
+SB1001;Sidelæns balance m. håndstøtte (180);;1.0;1.2
+SB202;Sidelæns balance u. håndstøtte (<90);;0.2;1.2
+SB402;Sidelæns balance u. håndstøtte (90);;0.4;1.2
+SB802;Sidelæns balance u. håndstøtte (120);;0.8;1.2
+SB1002;Sidelæns balance u. håndstøtte på tå (120);;1.0;1.2
+SB603;Front balance m. håndstøtte (120);;0.6;1.2
+SB803;Front balance m. håndstøtte på tå (120);;0.8;1.2
+SB204;Front balance u. håndstøtte (90);;0.2;1.2
+SB404;Front balance på tå;;0.4;1.2
+SB604;Front balance på tå (90);;0.6;1.2
+SB804;Front balance (120);;0.8;1.2
+SB1004;Front balance på tå (120);;1.0;1.2
+SB605;Sidelæns balance (90);;0.6;1.2
+SB805;Sidelæns balance (120);;0.8;1.2
+SB406;Ligevægt/scale (90);;0.4;1.2
+SB806;Ligevægt/scale (120);;0.8;1.2
+SB1006;Ligevægt/scale på tå (120);;1.0;1.2
+SB807;Sidelæns ligevægt/scale (90);;0.8;1.2
+SB1007;Sidelæns ligevægt/scale (120);;1.0;1.2
+HB201;Hovedstand;;0.2;1.3
+HB601;Håndstand på underarme;;0.6;1.3
+HB1001;Håndstand;;1.0;1.3
+HB202;Frø;;0.2;1.3
+HB402;Planche på albuer (spredte ben);;0.4;1.3
+HB802;Planche på strakte arme (spredte ben);;0.8;1.3
+HB403;Frø (samlede ben);;0.4;1.3
+HB603;Planche på albuer (samlede ben);;0.6;1.3
+HB1003;Planche på strakte arme (samlede ben);;1.0;1.3
+HB204;Katete m. bendeling (hænder i front og bagud);;0.2;1.3
+HB404;Katete m. bendeling (hænder i front eller bagud);;0.4;1.3
+HB604;Katete m. bendeling (45);;0.6;1.3
+HB804;Katete m. bendeling (90);;0.8;1.3
+HB405;Katete m. samlede ben;;0.4;1.3
+HB805;Katete m. samlede ben (45);;0.8;1.3
+HB1005;Katete m. samlede ben (90);;1.0;1.3
+J201;Strakt hop (180°);;0.2;2.1 A
+J401;Strakt hop (360°);;0.4;2.1 A
+J601;Strakt hop (540°);;0.6;2.1 A
+J801;Strakt hop (720°);;0.8;2.1 A
+J202;Lukket hop;;0.2;2.1 A
+J402;Lukket hop (180°);;0.4;2.1 A
+J602;Lukket hop (360°);;0.6;2.1 A
+J1002;Lukket hop (540°);;1.0;2.1 A
+J203;X-hop;;0.2;2.1 A
+J603;Hoftebøjet hop m. spredte ben;;0.6;2.1 A
+J803;Hoftebøjet hop m. spredte ben (drejning 180°);;0.8;2.1 A
+J1003;Hoftebøjet hop m. spredte ben (drejning 360°);;1.0;2.1 A
+J804;Ringhop (fødder v. skulder);;0.8;2.1 A
+J1004;Ringhop (fødder v. hoved);;1.0;2.1 A
+J1005;Ringhop m. fødder v. hoved (drejning 180°);;1.0;2.1 A
+J206;Zigzag hop;;0.2;2.1 A
+J406;Zigzag hop (drejning 180°);;0.4;2.1 A
+J1006;Zigzag hop (fod v. hoved);;1.0;2.1 A
+J207;Kosak hop;;0.2;2.1 A
+J407;Kosak hop (drejning 180°);;0.4;2.1 A
+J807;Kosak hop (drejning 360°);;0.8;2.1 A
+J408;Spagathop (bendeling 135°);;0.4;2.1 A
+J1008;Spagathop (bendeling 180°);;1.0;2.1 A
+J409;Sissione (bendeling 135°);;0.4;2.1 B
+J809;Sissione (bendeling 180°);;0.8;2.1 B
+J1009 A;Sissione (fod v. hoved);;1.0;2.1 B
+J1009 B;Sissione (fod v. hoved, 180);;1.0;2.1 B
+J210;Zigzag hop, landing på en fod;;0.2;2.1 B
+J410;Zigzag hop, landing på en fod (drejning 180°);;0.4;2.1 B
+J1010;Zigzag hop, landing på en fod (fod v. hoved);;1.0;2.1 B
+J411;Lukket hop til forsidelanding;;0.4;2.1 C
+J611;Lukket hop til forsidelanding (drejning 180°);;0.6;2.1 C
+J811;Lukket hop til forsidelanding (drejning 360°);;0.8;2.1 C
+J612;Shushunova;;0.6;2.1 C
+J812 A;Shushunova (drejning 180°);;0.8;2.1 C
+J812 B;Shushunova (drejning 360°);;0.8;2.1 C
+J613;Hoftebøjet hop til forsidelanding;;0.6;2.1 C
+J813 A;Hoftebøjet hop til forsidelanding (drejning 180°);;0.8;2.1 C
+J813 B;Hoftebøjet hop til forsidelanding (drejning 360°);;0.8;2.1 C
+J614;Spagathop til forsidelanding (bendeling 135°);;0.6;2.1 C
+J814;Spagathop til forsidelanding (bendeling 180°);;0.8;2.1 C
+J415;Strakt spring (drejning 360°);;0.4;2.2 A
+J615;Strakt spring (drejning 540°);;0.6;2.2 A
+J216;Kattespring;;0.2;2.2 A
+J416;Kattespring (180°);;0.4;2.2 A
+J616;Kattespring (360°);;0.6;2.2 A
+J816;Kattespring (540°);;0.8;2.2 A
+J1016;Kattespring (720°);;1.0;2.2 A
+J217;Saksespring (90°);;0.2;2.2 A
+J417;Saksespring (120°);;0.4;2.2 A
+J617;Saksespring (135°);;0.6;2.2 A
+J418;Saksespring m. halv vending (90°);;0.4;2.2 A
+J818;Saksespring m. halv vending (135°);;0.8;2.2 A
+J1018;Saksespring m. halv vending (180°);;1.0;2.2 A
+J1019 A;Butterfly (maven opad);;1.0;2.2 A
+J1019 B;Butterfly (maven nedad);;1.0;2.2 A
+J420;Zigzag spring;;0.4;2.2 A
+J820;Zigzag spring (fod v. hoved);;0.8;2.2 A
+J421;Splitspring;;0.4;2.2 A
+J621;Splitspring (drejning 90°);;0.6;2.2 A
+J821;Splitspring (drejning 180°);;0.8;2.2 A
+J222;Spagatspring (bendeling 90°);;0.2;2.2 A
+J422;Spagatspring (bendeling 135°);;0.4;2.2 A
+J822;Spagatspring (bendeling 180°);;0.8;2.2 A
+J1022;Spagatspring/Vandret ringhop (bendeling 135°);;1.0;2.2 A
+J623;Veksel spagatspring (bendeling 135°);;0.6;2.2 A
+J823;Veksel spagatspring (bendeling 180°);;0.8;2.2 A
+J1023;Veksel spagatspring, fod v. skulder (bendeling 135°);;1.0;2.2 A
+J624;Veksel spagatspring, tofodslanding (bendeling 135°, drejning 90°);;0.6;2.2 B
+J824;Veksel spagatspring, tofodslanding (bendeling 135°, drejning 180°);;0.8;2.2 B
+J1024;Veksel spagatspring, tofodslanding (bendeling 180°, drejning 180°);;1.0;2.2 B
+J625;Spagatspring til forsidelanding (bendeling 135°);;0.6;2.2 C
+J825;Spagatspring til forsidelanding (bendeling 180°);;0.8;2.2 C
+J626;Veksel spagatspring til forsidelanding (bendeling 135°);;0.6;2.2 C
+J826;Veksel spagatspring til forsidelanding (bendeling 180°);;0.8;2.2 C
+J227;Kosak hink;;0.2;2.3
+J427;Kosak hink (drejning 180°);;0.4;2.3
+J1027;Kosak hink (drejning 360°);;1.0;2.3
+J828;Strakt hink (drejning 360°);;0.8;2.3
+J1028;Strakt hink (drejning 540°);;1.0;2.3
+J1029;Lukket hink (drejning 360°);;1.0;2.3
+A601;Forlæns salto, 1 fod -> siddende;;0.6;3.1
+A801;Forlæns salto lukket, 1 fod->1 fod;;0.8;3.1
+A1001;Forlæns salto hofte, 1 fod->1 fod;;1.0;3.1
+A802;Forlæns salto lukket, 1 fod->2 fødder;;0.8;3.1
+A1002;Forlæns salto hofte, 1 fod->2 fødder;;1.0;3.1
+A603 A;Forlæns salto lukket, tofodsafsæt;;0.6;3.1
+A603 B;Forlæns salto hofte, tofodsafsæt;;0.6;3.1
+A803 A;Forlæns salto lukket, tofodsafsæt (180° skrue);;0.8;3.1
+A803 B;Forlæns salto hofte, tofodsafsæt (180° skrue);;0.8;3.1
+A604 A;Kraftspring, 1 fod->1 fod;;0.6;3.1
+A604 B;Kraftspring, 1 fod->2 fødder;;0.6;3.1
+A1004;Frit kraftspring;;1.0;3.1
+A205;Håndstand til forlæns rulle;;0.2;3.1
+A605;Endo rulle;;0.6;3.1
+A1005;Endu rulle til håndstand;;1.0;3.1
+A406;Walkover forlæns;;0.4;3.1
+A1006;Håndstand (drejning 180°) til walkover;;1.0;3.1
+A607 A;Baglæns salto lukket;;0.6;3.2
+A607 B;Baglæns salto (360° skrue);;0.6;3.2
+A607 C;Baglæns salto hofte;;0.6;3.2
+A1007 A;Baglæns salto strakt;;1.0;3.2
+A1007 B;Baglæns salto strakt (360° skrue);;1.0;3.2
+A608;Gainer salto lukket;;0.6;3.2
+A808;Gainer salto hofte;;0.8;3.2
+A1008;Gainer salto strakt;;1.0;3.2
+A209;Rondat;;0.2;3.2
+A409;Flik;;0.4;3.2
+A609;Flik til håndliggende;;0.6;3.2
+A809;Gainer til flik;;0.8;3.2
+A410;Baglæns rulle til håndstand;;0.4;3.2
+A810;Baglæns rulle til håndstand (drejning 180°);;0.8;3.2
+A1010;Baglæns rulle til håndstand (drejning 360°);;1.0;3.2
+A411;Walkover baglæns;;0.4;3.2
+A611;Walkover baglæns fra siddende;;0.6;3.2
+A1011;Valdez til håndstand (drejning 360°);;1.0;3.2
+A1012;Sidelæns salto;;1.0;3.3
+A213 A;Mølle med en hånd;;0.2;3.3
+A213 B;Mølle med to hænder;;0.2;3.3
+A1013;Fri vejrmølle;;1.0;3.3
+A614;Walkover, forlæns til baglæns;;0.6;3.4
+A1014;Walkover baglæns (drejning 180°) til forlæns walkover;;1.0;3.4
+A1015;Flik (drejning 180°) til forlæns walkover;;1.0;3.4
+F401;Japana (45);;0.4;4
+F801;Japana;;0.8;4
+F802 A;Hoftebøjet lukning (stående);;0.8;4
+F802 B;Hoftebøjet lukning (siddende);;0.8;4
+F1003;Spagat (180);;1.0;4
+F1004;Split (180);;1.0;4
+F405;Brogang;;0.4;4
+F605;Brogang (lår lodret);;0.6;4
+F805;Brogang (ben 45);;0.8;4
+F1005;Brogang (ben 90);;1.0;4
+G601;Løft;;0.6;5
+G1001;Løft m. rotation (>180);;1.0;5
+G802;Kast;;0.8;5
+G1002;Kast m. rotation (>90);;1.0;5
