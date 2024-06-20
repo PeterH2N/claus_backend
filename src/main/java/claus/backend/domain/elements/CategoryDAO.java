@@ -1,13 +1,10 @@
 package claus.backend.domain.elements;
 
-import claus.backend.elements.Category;
-import claus.backend.elements.Element;
-import claus.backend.elements.Tree;
+import claus.backend.DBObjects.elements.Category;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.sql.Array;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -55,32 +52,7 @@ public class CategoryDAO{
         return pstmt.executeUpdate();
     }
 
-    public static List<Category> getAllParents(Connection con, String copName) throws SQLException {
-
-        int copID = CodeOfPointsDAO.getID(con, copName);
-        String sql = "SELECT * FROM categories WHERE parent_code IS NULL AND cop_id = ?";
-        var pstmt = con.prepareStatement(sql);
-        pstmt.setInt(1, copID);
-
-        ArrayList<Category> cats = new ArrayList<>();
-        Category cat;
-
-        var rs = pstmt.executeQuery();
-
-        while (rs.next()) {
-            cat = new Category();
-            cat.setCode(rs.getString("code"));
-            cat.setName(rs.getString("name"));
-            cat.setDescription(rs.getString("description"));
-            cat.setParentCode(rs.getString("parent_code"));
-            cats.add(cat);
-        }
-
-        return cats;
-
-    }
-
-    public static List<Category> getChildren(Connection con, String copName, String categoryCode) throws SQLException {
+    public static List<Category> getAllChildren(Connection con, String copName, String categoryCode) throws SQLException {
 
         int copID = CodeOfPointsDAO.getID(con, copName);
         String sql = "SELECT * FROM categories WHERE parent_code LIKE ? AND cop_id = ?";
@@ -106,38 +78,13 @@ public class CategoryDAO{
 
     }
 
-    public static List<Category> getImmediateChildren(Connection con, String copName, String categoryCode) throws SQLException {
+    public static List<Category> getChildren(Connection con, String copName, String categoryCode) throws SQLException {
 
         int copID = CodeOfPointsDAO.getID(con, copName);
         String sql = "SELECT * FROM categories WHERE parent_code = ? AND cop_id = ?";
         var pstmt = con.prepareStatement(sql);
         pstmt.setString(1, categoryCode);
         pstmt.setInt(2, copID);
-
-        ArrayList<Category> cats = new ArrayList<>();
-        Category cat;
-
-        var rs = pstmt.executeQuery();
-
-        while (rs.next()) {
-            cat = new Category();
-            cat.setCode(rs.getString("code"));
-            cat.setName(rs.getString("name"));
-            cat.setDescription(rs.getString("description"));
-            cat.setParentCode(rs.getString("parent_code"));
-            cats.add(cat);
-        }
-
-        return cats;
-
-    }
-
-    public static List<Category> getAllChildren(Connection con, String copName) throws SQLException {
-
-        int copID = CodeOfPointsDAO.getID(con, copName);
-        String sql = "SELECT * FROM categories WHERE parent_code IS NOT NULL AND cop_id = ?";
-        var pstmt = con.prepareStatement(sql);
-        pstmt.setInt(1, copID);
 
         ArrayList<Category> cats = new ArrayList<>();
         Category cat;
@@ -179,39 +126,6 @@ public class CategoryDAO{
         return cats;
 
     }
-    public static Tree<Category.ElementListByCategory> getCategoryTree(Connection con, String copName) throws SQLException {
-        var parents = new ArrayList<>(getAllParents(con, copName));
-
-        var tree = new Tree<Category.ElementListByCategory>();
-
-        TreeHelper(con, copName, parents, tree.getRoot());
-
-        /*for (var parent : parents) {
-            var elements = new ArrayList<>(ElementDAO.getBySpecificCategory(con, copName, parent.getCode()));
-            var node = tree.getRoot().addChild(new Category.ElementListByCategory(parent, elements));
-            var children = new ArrayList<>(getChildren(con, copName, parent.getCode()));
-            TreeHelper(con, copName, children, node);
-        }*/
-
-        return tree;
-    }
-
-
-    static void TreeHelper(Connection con, String copName, ArrayList<Category> cats, Tree.Node<Category.ElementListByCategory> currentNode) throws SQLException
-    {
-        // exit condition
-        if (cats.isEmpty())
-            return;
-
-        // make new nodes for each
-        for (var parent : cats) {
-            var elements = new ArrayList<>(ElementDAO.getBySpecificCategory(con, copName, parent.getCode()));
-            var node = currentNode.addChild(new Category.ElementListByCategory(parent, elements));
-            var children = new ArrayList<>(getImmediateChildren(con, copName, parent.getCode()));
-            TreeHelper(con, copName, children, node);
-        }
-
-    }
 
     public static List<Category> readFromCSV(String filepath) {
         ArrayList<Category> categories = new ArrayList<>();
@@ -231,8 +145,7 @@ public class CategoryDAO{
                 category.setCode(cs[0]);
                 category.setName(cs[1]);
                 category.setDescription(cs[2]);
-                if (!cs[3].isEmpty())
-                    category.setParentCode(cs[3]);
+                category.setParentCode(cs[3]);
 
                 categories.add(category);
             }

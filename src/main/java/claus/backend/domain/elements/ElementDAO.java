@@ -1,6 +1,6 @@
 package claus.backend.domain.elements;
 
-import claus.backend.elements.Element;
+import claus.backend.DBObjects.elements.Element;
 
 import java.io.BufferedReader;
 import java.io.IOException;

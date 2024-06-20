@@ -1,8 +1,8 @@
 package claus.backend.domain.teams;
 
 import claus.backend.domain.elements.CategoryDAO;
-import claus.backend.teams.Team;
-import claus.backend.teams.User;
+import claus.backend.DBObjects.teams.Team;
+import claus.backend.DBObjects.teams.User;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,12 +1,15 @@
-package claus.backend.elements;
+package claus.backend.DBObjects.elements;
 
-public class Element {
+import claus.backend.DBObjects.DBObject;
+
+public class Element implements DBObject
+{
     String code;
     String name;
     String description;
     double difficulty;
-    String categoryCode;
-    int copID;
+    String category_code;
+    int cop_id;
 
     public String getCode() {
         return code;
@@ -41,26 +44,32 @@ public class Element {
     }
 
     public String getCategoryCode() {
-        return categoryCode;
+        return category_code;
     }
 
     public void setCategoryCode(String categoryCode) {
-        this.categoryCode = categoryCode;
+        this.category_code = categoryCode;
     }
 
     public int getCopID()
     {
-        return copID;
+        return cop_id;
     }
 
     public void setCopID(int copID)
     {
-        this.copID = copID;
+        this.cop_id = copID;
     }
 
     @Override
     public String toString()
     {
         return name;
+    }
+
+    @Override
+    public String getTableName()
+    {
+        return "elements";
     }
 }

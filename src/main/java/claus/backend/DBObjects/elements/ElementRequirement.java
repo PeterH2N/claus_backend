@@ -1,17 +1,16 @@
-package claus.backend.elements;
+package claus.backend.DBObjects.elements;
 
-import java.util.ArrayList;
+import claus.backend.DBObjects.DBObject;
 
-public class ElementRequirement
+public class ElementRequirement implements DBObject
 {
-    private String categoryCode;
+    private String category_code;
     private int amount;
-
-    private int copID;
+    private int cop_id;
 
     public ElementRequirement(String categoryCode, int amount)
     {
-        this.categoryCode = categoryCode;
+        this.category_code = categoryCode;
         this.amount = amount;
     }
 
@@ -19,12 +18,12 @@ public class ElementRequirement
 
     public String getCategoryCode()
     {
-        return categoryCode;
+        return category_code;
     }
 
     public void setCategoryCode(String categoryCode)
     {
-        this.categoryCode = categoryCode;
+        this.category_code = categoryCode;
     }
 
     public int getAmount()
@@ -39,12 +38,17 @@ public class ElementRequirement
 
     public int getCopID()
     {
-        return copID;
+        return cop_id;
     }
 
     public void setCopID(int copID)
     {
-        this.copID = copID;
+        this.cop_id = copID;
     }
 
+    @Override
+    public String getTableName()
+    {
+        return "element_requirements";
+    }
 }

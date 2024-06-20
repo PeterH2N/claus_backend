@@ -1,17 +1,20 @@
-package claus.backend.teams;
+package claus.backend.DBObjects.teams;
+
+import claus.backend.DBObjects.DBObject;
 
 import java.sql.Date;
 import java.sql.Timestamp;
 import java.util.UUID;
 import java.util.regex.Pattern;
 
-public class User {
+public class User implements DBObject
+{
     UUID id;
     String name;
     String email;
-    String phoneNumber;
-    Date birthDate;
-    Timestamp createdOn;
+    String phone_number;
+    Date birth_date;
+    Timestamp created_On;
 
     public UUID getId() {
         return id;
@@ -45,7 +48,7 @@ public class User {
 
     public String getPhoneNumber() {
 
-        return phoneNumber;
+        return phone_number;
     }
 
     public void setPhoneNumber(String phoneNumber) {
@@ -53,22 +56,28 @@ public class User {
         if (!Pattern.compile(regexPattern).matcher(phoneNumber).matches())
             throw new RuntimeException("Phone number not valid");
 
-        this.phoneNumber = phoneNumber;
+        this.phone_number = phoneNumber;
     }
 
     public Date getBirthDate() {
-        return birthDate;
+        return birth_date;
     }
 
     public void setBirthDate(Date birthDate) {
-        this.birthDate = birthDate;
+        this.birth_date = birthDate;
     }
 
     public Timestamp getCreatedOn() {
-        return createdOn;
+        return created_On;
     }
 
     public void setCreatedOn(Timestamp createdOn) {
-        this.createdOn = createdOn;
+        this.created_On = createdOn;
+    }
+
+    @Override
+    public String getTableName()
+    {
+        return "users";
     }
 }

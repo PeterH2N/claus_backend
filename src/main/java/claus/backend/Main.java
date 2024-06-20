@@ -1,5 +1,7 @@
 package claus.backend;
 
+import claus.backend.DBObjects.DAO;
+import claus.backend.DBObjects.elements.Category;
 import claus.backend.database.DB;
 import claus.backend.domain.elements.CategoryDAO;
 import claus.backend.domain.elements.ElementDAO;
@@ -12,9 +14,14 @@ public class Main
     {
         var con  = DB.getConnection();
 
-        var tree = CategoryDAO.getCategoryTree(con, "Liga 2024");
+        var cat = new Category();
+        cat.setCode("codetest");
+        cat.setName("nametest");
+        cat.setDescription("desctest");
+        cat.setCopID(55);
+        cat.setParentCode("parenttest");
 
-        System.out.println(tree);
+        DAO.add(con, cat);
 
         DB.freeConnection(con);
         DB.cleanPool();

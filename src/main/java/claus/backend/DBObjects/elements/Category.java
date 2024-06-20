@@ -1,15 +1,17 @@
-package claus.backend.elements;
+package claus.backend.DBObjects.elements;
+
+import claus.backend.DBObjects.DBObject;
 
 import java.util.ArrayList;
 
-public class Category {
+public class Category implements DBObject
+{
 
     String code;
     String name;
     String description;
-    String parentCode;
-
-    int copID;
+    String parent_code;
+    int cop_id;
 
     public String getCode() {
         return code;
@@ -36,21 +38,21 @@ public class Category {
     }
 
     public String getParentCode() {
-        return parentCode;
+        return parent_code;
     }
 
     public void setParentCode(String parentCode) {
-        this.parentCode = parentCode;
+        this.parent_code = parentCode;
     }
 
     public int getCopID()
     {
-        return copID;
+        return cop_id;
     }
 
     public void setCopID(int coDPD)
     {
-        copID = coDPD;
+        cop_id = coDPD;
     }
 
     @Override
@@ -62,7 +64,13 @@ public class Category {
         return sb.toString();
     }
 
-    public static class ElementListByCategory {
+    @Override
+    public String getTableName()
+    {
+        return "categories";
+    }
+
+    /*public static class ElementListByCategory {
         private final Category category;
 
         private final ArrayList<Element> elements;
@@ -95,5 +103,5 @@ public class Category {
             }
             return builder.toString();
         }
-    }
+    }*/
 }

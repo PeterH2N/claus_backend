@@ -1,9 +1,12 @@
-package claus.backend.teams;
+package claus.backend.DBObjects.teams;
+
+import claus.backend.DBObjects.DBObject;
 
 import java.util.ArrayList;
 import java.util.UUID;
 
-public class Team {
+public class Team
+{
     UUID id;
     String name;
 

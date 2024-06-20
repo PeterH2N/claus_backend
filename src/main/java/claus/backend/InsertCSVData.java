@@ -5,11 +5,10 @@ import claus.backend.domain.elements.CategoryDAO;
 import claus.backend.domain.elements.CodeOfPointsDAO;
 import claus.backend.domain.elements.ElementDAO;
 import claus.backend.domain.elements.ElementRequirementDao;
-import claus.backend.elements.CodeOfPoints;
+import claus.backend.DBObjects.elements.CodeOfPoints;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.sql.Savepoint;
 import java.util.ArrayList;
 
 public class InsertCSVData

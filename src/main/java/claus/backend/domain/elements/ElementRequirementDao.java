@@ -1,13 +1,10 @@
 package claus.backend.domain.elements;
 
-import claus.backend.elements.Category;
-import claus.backend.elements.Element;
-import claus.backend.elements.ElementRequirement;
+import claus.backend.DBObjects.elements.ElementRequirement;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -62,6 +59,22 @@ public class ElementRequirementDao
         elementRequirement.setCopID(rs.getInt("cop_id"));
 
         return elementRequirement;
+    }
+
+    public static List<ElementRequirement> getByCoP(Connection con, String copName) throws SQLException
+    {
+        int copID = CodeOfPointsDAO.getID(con, copName);
+        ArrayList<ElementRequirement> reqs = new ArrayList<>();
+
+        String sql = "SELECT * FROM element_requirements WHERE cop_id = ?";
+        var pstmt = con.prepareStatement(sql);
+        pstmt.setInt(1, copID);
+        var rs = pstmt.executeQuery();
+
+        while (rs.next()) {
+            reqs.add(get(rs));
+        }
+        return reqs;
     }
 
     public static List<ElementRequirement> getBycopID(Connection con, int copID) throws SQLException

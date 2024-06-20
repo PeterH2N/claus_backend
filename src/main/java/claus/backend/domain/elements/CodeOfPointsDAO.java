@@ -1,9 +1,9 @@
 package claus.backend.domain.elements;
 
-import claus.backend.elements.Category;
-import claus.backend.elements.CodeOfPoints;
-import claus.backend.elements.Element;
-import claus.backend.elements.ElementRequirement;
+import claus.backend.DBObjects.elements.Category;
+import claus.backend.DBObjects.elements.CodeOfPoints;
+import claus.backend.DBObjects.elements.Element;
+import claus.backend.DBObjects.elements.ElementRequirement;
 
 import java.sql.Connection;
 import java.sql.SQLException;
